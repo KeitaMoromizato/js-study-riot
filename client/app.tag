@@ -3,6 +3,18 @@ import riot from 'riot';
 require('./name.tag');
 
 <app>
-  <name first="Hello" last="World"></name>
-  <name first="Ola" last="Moudo"></name>
+  <ul>
+    <name each={ user in users } user={ user }></name>
+  </ul>
+
+  this.users = [
+    {
+      first: "Hello",
+      last: "World"
+    },
+    {
+      first: "Hoge",
+      last: "Taro"
+    }
+  ];
 </app>
