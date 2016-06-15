@@ -1,5 +1,4 @@
-import riot from 'riot';
-
+const riot = require('riot');
 require('./name.tag');
 
 <app>

@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.config.js",
+    "build:server": "riot client/ build/",
     "watch": "webpack --config webpack.config.js --watch",
     "start": "npm run watch & http-server"
   },

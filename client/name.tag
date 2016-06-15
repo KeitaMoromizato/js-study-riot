@@ -1,4 +1,4 @@
-import riot from 'riot';
+const riot = require('riot');
 
 <name>
   <h1>{ opts.user.last } - { opts.user.first }</h1>
