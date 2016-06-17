@@ -16,11 +16,11 @@ describe('riot sample', () => {
         html: '<div><name /></div>',
         src: [riot, tag],
         done: (err, window) => {
-          const names = window.riot.mount('name');
+          const names = window.riot.mount('name', {user: {last: 'hoge', first: 'huga'}});
 
           const document = window.document;
 
-          assert(document.querySelector('name').innerHTML === 'hoge');
+          assert(document.querySelector('h1').innerHTML === 'hoge - huga');
           done();
         }
       });
