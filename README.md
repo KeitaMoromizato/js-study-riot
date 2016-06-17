@@ -1,6 +1,6 @@
- # JavaScript勉強会 # Riot.js
+# JavaScript勉強会 # Riot.js
 
- ## Install
+## Install
 
  ```
  $ git clone https://github.com/KeitaMoromizato/js-study-riot
@@ -8,7 +8,7 @@
  $ npm i
  ```
 
- ## run
+## run
 
  ```
  $ npm start
@@ -206,7 +206,10 @@ require('./name');
 </app>
 ```
 
- ## 参考
+## テスト
+
+
+## 参考
 
  * [Riot.js](http://riotjs.com/ja/)
  * [APIリファレンス](http://riotjs.com/ja/api/)
